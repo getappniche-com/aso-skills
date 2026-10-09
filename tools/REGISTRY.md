@@ -26,7 +26,7 @@ country-parameterized call.
 
 | Tool | Cost |
 |---|---|
-| search_apps · get_app_reviews | 1 credit / row returned (min 1 per call; 10 rows a call by default, up to 100) |
+| search_apps · get_app_reviews | 1 credit / row returned (min 1 per call; 50 rows a call by default, up to 100) |
 | get_app_detail · get_app_historicals · get_app_timeline | 1 credit / call |
 | get_keyword_difficulty · batch_keyword_difficulty | 10 credits / keyword |
 | get_supported_countries | free |
