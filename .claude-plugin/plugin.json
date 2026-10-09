@@ -4,7 +4,7 @@
   "description": "App Store & Google Play research skills for GetAppNiche — app discovery, keyword research, competitor teardowns, growth scans, review mining.",
   "author": { "name": "GetAppNiche", "email": "yaro@getappniche.com", "url": "https://getappniche.com" },
   "homepage": "https://getappniche.com/mcp",
-  "repository": "https://github.com/getappniche/aso-skills",
+  "repository": "https://github.com/getappniche-com/aso-skills",
   "license": "MIT",
   "keywords": ["aso", "app-store", "google-play", "mcp", "market-research"]
 }

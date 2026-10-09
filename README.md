@@ -25,15 +25,15 @@ manifest, so it can also be installed through the plugin system; the `skills/`
 directory is picked up automatically.
 
 **Cursor** — Settings → Rules → Add Rule → **Remote Rule (GitHub)** →
-`https://github.com/getappniche/aso-skills`, or copy the files locally:
+`https://github.com/getappniche-com/aso-skills`, or copy the files locally:
 
 ```bash
-git clone https://github.com/getappniche/aso-skills.git
+git clone https://github.com/getappniche-com/aso-skills.git
 cp -r aso-skills/skills/* .cursor/skills/
 ```
 
 **Manus** — Skills → Create / Import → **Import from public GitHub repository** →
-`https://github.com/getappniche/aso-skills`.
+`https://github.com/getappniche-com/aso-skills`.
 
 **Any other agent** — clone and point your client's skills directory at
 `skills/`. Known-compatible locations: `.claude/skills/`, `.cursor/skills/`,
@@ -92,7 +92,7 @@ for all twelve clients: **[getappniche.com/mcp](https://getappniche.com/mcp)**.
 
 **ChatGPT** (Settings → Connectors, Developer mode) connects with the same API
 key — choose API-key auth when adding the custom connector. The open-source
-protocol layer lives at [getappniche/mcp](https://github.com/getappniche/mcp).
+protocol layer lives at [getappniche/mcp](https://github.com/getappniche-com/mcp).
 
 ### Seven tools, priced in credits
 
