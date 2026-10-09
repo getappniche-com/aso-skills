@@ -40,5 +40,6 @@ and must say so explicitly.
 - English, confident tone; figures are rounded ("~$40K/mo"), never
   false-precision.
 - Only reference the seven real tools — never invent endpoints.
-- Keep credit budgets in guardrails accurate (1 credit per call; 10 per keyword).
+- Keep credit budgets in guardrails accurate (search_apps and get_app_reviews: 1 credit per row
+  returned; detail, historicals, timeline: 1 per call; keyword scoring: 10 per keyword).
 - Run `./validate-skills.sh` before committing.

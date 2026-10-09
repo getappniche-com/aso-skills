@@ -32,7 +32,7 @@ Without it, fall back to reasoning from public store pages and say so explicitly
 
    Confirm only if genuinely ambiguous.
 2. **Run two or three sharp queries, not ten scattershot ones.** One query per thesis
-   (`limit: 25` is a good default). Because the filters do the narrowing, a second
+   (`limit: 25` is a good default — each returned app costs 1 credit). Because the filters do the narrowing, a second
    query should test a *different hypothesis* — not a synonym of the first.
 3. **Deduplicate and rank.** Merge results, then rank by whatever signal matches the
    user's goal. `sort_by` accepts `downloads`, `revenue`, `growth`, `reviews`,
@@ -55,7 +55,8 @@ State the filters you used, so the user can see what the shortlist is and isn't.
 
 - Use revenue and download figures to rank and compare; round them in output
   rather than quoting to the dollar.
-- Each call costs 1 credit. If a call reports an out-of-credits error, relay it:
+- Each returned app costs 1 credit (an empty result costs 1). If a call reports an
+  out-of-credits error, relay it:
   credits refresh monthly and can be topped up in Settings at app.getappniche.com.
 - A filter combination that returns nothing is a finding ("nobody is making $50K/mo
   here"), not a failure — report it before loosening the filters, and say which

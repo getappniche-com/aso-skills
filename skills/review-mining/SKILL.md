@@ -65,5 +65,6 @@ strength.
   reviewers", not "among users".
 - Minimum ~30 reviews before percentages; below that, present themes qualitatively.
 - Quote verbatim, short, and anonymous — no reviewer names.
-- Each page costs 1 credit. If a call reports an out-of-credits error, relay it:
+- Each returned review costs 1 credit, so a 50-review page is 50 credits. If a call
+  reports an out-of-credits error, relay it:
   credits refresh monthly and can be topped up in Settings at app.getappniche.com.

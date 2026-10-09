@@ -15,9 +15,9 @@ make, how to reason about the numbers, and the exact output format to deliver.
 **Claude Code** (official installer — downloads this repo and registers the skills):
 
 ```bash
-npx skills add getappniche/aso-skills
+npx skills add getappniche-com/aso-skills
 # or only some of them:
-npx skills add getappniche/aso-skills --skill keyword-research competitor-teardown
+npx skills add getappniche-com/aso-skills --skill keyword-research competitor-teardown
 ```
 
 **Claude Code plugin** — the repo ships a [`.claude-plugin`](.claude-plugin/)

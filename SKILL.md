@@ -21,5 +21,6 @@ Pick the specialized skill that matches the question and follow it:
 Data: hosted GetAppNiche MCP server (`https://api.getappniche.com/mcp`, Bearer
 key) — `search_apps`, `get_app_detail`, `get_app_historicals`,
 `get_keyword_difficulty`, `batch_keyword_difficulty`, `get_app_reviews`,
-`get_supported_countries`. Most calls cost 1 credit; keyword scoring 10/keyword.
+`get_supported_countries`. App search and reviews cost 1 credit per row returned; detail and
+history 1 per call; keyword scoring 10/keyword.
 If the server is not connected, say so and reason from public store pages.
